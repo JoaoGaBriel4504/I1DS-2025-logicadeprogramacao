@@ -53,6 +53,14 @@ Saída: 1, 3, 5, 8, 9
 
 */
 
+//atividade 1
+const imparpar = (num) => {
+  return num % 2 == 0 ? "O número é par!" : "O número é impar!";
+  console.log(imparpar(10));
+  console.log(imparpar(3));
+  console.log(imparpar(2));
+};
+
 //atividade 2
 var tabuada = 1;
 console.log(tabuada, "x 1 =", tabuada * 1);
@@ -70,9 +78,11 @@ console.log(tabuada, "x 10 =", tabuada * 10);
 console.log("fatorial de 5! =", 5 * 4 * 3 * 2 * 1);
 
 //atividade 4
-var array = [
-    [5, 2, 4],
-    [8, 5, 1],
-    [1, 3, 9],
-  ];
-  console.table(array);
+var numeros = [10, 20, 30, 40];
+var soma = numeros[0] + numeros[1] + numeros[2] + numeros[3];
+console.log(soma);
+
+//atividade 5
+const ordemNumero = [8, 3, 5, 1, 9];
+console.log(ordemNumero);
+console.log(ordemNumero.sort());
