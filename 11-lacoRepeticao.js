@@ -56,3 +56,5 @@ for (let linha = 0; linha < matriz.length; linha++) {
   for (let coluna = 0; coluna < matriz[0].length; coluna++)
     console.log(`matriz[${linha}][${coluna}] =${matriz[linha][coluna]}`);
 }
+
+//laço de repetição - while / do while
